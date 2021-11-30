@@ -1,0 +1,32 @@
+@mixin name {
+    
+
+    $bgcolor : #fff;
+    color:#000;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+    
+    h1 {
+        top: 6rem;
+    background-color: #fff;
+    color:#000;
+    position: absolute;
+    font-family: sans-serif;
+    right: 36rem;
+    }
+    h2{
+        background-color: #fff;
+        color:#000;
+        position: absolute;
+        font-family: sans-serif;
+        right: 40rem;
+        top: 9rem;
+
+    }
+}

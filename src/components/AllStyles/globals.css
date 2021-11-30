@@ -1,0 +1,212 @@
+.allNav {
+  background-color: #fff;
+}
+
+.navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #000;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #fff;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 1rem;
+  background-color: #fff;
+  font-size: small;
+  font-family: sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+.allBody {
+  position: relative;
+  padding-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.allBody .inputLogo {
+  background-color: white;
+  position: relative;
+}
+
+.allBody .inputLogo .inp {
+  height: 40px;
+  margin-top: 1.2rem;
+  background-color: transparent;
+  border: none;
+  outline: gray;
+  border: 1px #dfe6e9 solid;
+  color: #2d3436;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.allBody .inputLogo .icon-search {
+  width: 12px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 24rem;
+  width: 20%;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
+}
+
+.main h1 {
+  color: #fff;
+}
+
+body {
+  background-color: #95a5a6;
+}
+
+.allSection {
+  background-color: #95a5a6;
+}
+
+.allSection h1 {
+  color: white;
+}
+
+.whole h1 {
+  font-weight: bolder;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 22rem;
+  padding-top: 5rem;
+  font-size: 50px;
+}
+
+.whole p {
+  margin-left: 30rem;
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.whole .shutter .logo2 {
+  width: 1100px;
+  margin-left: 11rem;
+  margin-top: 2rem;
+}
+
+.allBody {
+  position: relative;
+  padding-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.allBody .inputLogo {
+  background-color: white;
+  position: relative;
+}
+
+.allBody .inputLogo .inp {
+  height: 40px;
+  margin-top: 1.2rem;
+  background-color: transparent;
+  border: none;
+  outline: gray;
+  border: 1px #dfe6e9 solid;
+  color: #2d3436;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.allBody .inputLogo .icon-search {
+  width: 12px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 24rem;
+  width: 20%;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
+}
+
+.allSlide {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.allSlide img {
+  height: 500px;
+  width: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 17rem;
+}
+
+.allSlide .left {
+  position: absolute;
+  top: 50%;
+  color: black;
+  left: 15rem;
+}
+
+.allSlide .right {
+  position: absolute;
+  top: 50%;
+  color: black;
+  right: 15rem;
+}
+
+.main h1 {
+  color: #fff;
+}
+/*# sourceMappingURL=globals.css.map */

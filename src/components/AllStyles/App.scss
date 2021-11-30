@@ -1,7 +1,14 @@
-$primary-color : #5f23;
+@import './Navbar.scss';
+@import './Header.scss';
+
+$primary-color : rgb(97, 95, 95);
+
+
 
 
 *{
-    background: $primary-color;
-    color: green;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
 }

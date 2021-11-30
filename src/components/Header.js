@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './assets/side.png'
 import Navbar from './Navbar'
-import './AllStyles/Header.css'
+import './AllStyles/Header.scss'
 import {FaSearch} from 'react-icons/fa'
 
 const Header = () => {

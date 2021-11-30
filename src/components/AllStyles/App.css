@@ -41,53 +41,28 @@
   font-weight: bold;
 }
 
-.allBody {
-  position: relative;
-  padding-top: 10px;
-  background-color: white;
-  font-family: sans-serif;
-  font-size: small;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.allBody .inputLogo {
-  background-color: white;
+.main {
+  background-color: #fff;
+  height: 100vh;
   position: relative;
 }
 
-.allBody .inputLogo .inp {
-  height: 40px;
-  margin-top: 1.2rem;
-  background-color: transparent;
-  border: none;
-  outline: gray;
-  border: 1px #dfe6e9 solid;
-  color: #2d3436;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.allBody .inputLogo .icon-search {
-  width: 12px;
-  background-color: transparent;
+.main h1 {
+  top: 6rem;
+  background-color: #fff;
+  color: #000;
   position: absolute;
-  right: 0;
-  top: 35%;
-  margin-right: 10px;
+  font-family: sans-serif;
+  right: 36rem;
 }
 
-.logo {
-  margin-left: 24rem;
-  width: 20%;
-  height: 90px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-color: white;
+.main h2 {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  font-family: sans-serif;
+  right: 40rem;
+  top: 9rem;
 }
 
 body {
@@ -99,7 +74,7 @@ body {
 }
 
 .allSection h1 {
-  color: white;
+  color: #fff;
 }
 
 .whole h1 {
@@ -191,15 +166,88 @@ body {
 .allSlide .left {
   position: absolute;
   top: 50%;
-  color: black;
+  color: #000;
   left: 15rem;
 }
 
 .allSlide .right {
   position: absolute;
   top: 50%;
-  color: black;
+  color: #000;
   right: 15rem;
+}
+
+.main {
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+}
+
+.main h1 {
+  top: 6rem;
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  font-family: sans-serif;
+  right: 36rem;
+}
+
+.main h2 {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  font-family: sans-serif;
+  right: 40rem;
+  top: 9rem;
+}
+
+.allBody {
+  position: relative;
+  padding-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.allBody .inputLogo {
+  background-color: white;
+  position: relative;
+}
+
+.allBody .inputLogo .inp {
+  height: 40px;
+  margin-top: 1.2rem;
+  background-color: transparent;
+  border: none;
+  outline: gray;
+  border: 1px #dfe6e9 solid;
+  color: #2d3436;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.allBody .inputLogo .icon-search {
+  width: 12px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 24rem;
+  width: 20%;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
 }
 
 * {
@@ -207,6 +255,6 @@ body {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #bdc3c7;
+  background-color: #fff;
 }
 /*# sourceMappingURL=App.css.map */

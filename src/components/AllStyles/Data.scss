@@ -1,7 +1,9 @@
+@import './globals.scss';
+
 @mixin buttons {
     position: absolute;
     top: 50%;
-    color: black;
+    color: $primary-one;
 }
 
 

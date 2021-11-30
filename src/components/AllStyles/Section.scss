@@ -1,11 +1,12 @@
+@import './globals.scss';
 body {
-    background-color: #95a5a6;
+    background-color: $secondary-color;
 }
 
 .allSection {
-    background-color: #95a5a6;
+    background-color:$secondary-color;
 
     h1 {
-        color: white;
+        color: $fav-color;
     }
 }

@@ -1,28 +1,30 @@
+@import './globals.scss';
+
 @mixin name {
     
 
-    $bgcolor : #fff;
-    color:#000;
+    $bgcolor : $fav-color;
+    color: $primary-one;
     position: absolute;
     font-family: sans-serif;
 }
 
 .main{
-    background-color: #fff;
+    background-color:$fav-color;
     height: 100vh;
     position: relative;
     
     h1 {
-        top: 6rem;
-    background-color: #fff;
-    color:#000;
+    top: 6rem;
+    background-color: $fav-color;
+    color: $primary-one;
     position: absolute;
     font-family: sans-serif;
     right: 36rem;
     }
     h2{
-        background-color: #fff;
-        color:#000;
+        background-color: $fav-color;
+        color:$primary-one;
         position: absolute;
         font-family: sans-serif;
         right: 40rem;

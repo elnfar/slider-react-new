@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,CAAC;EACD,gBAAgB,ECDH,OAAO;CDEvB;;AAED,AAAA,WAAW,CAAC;EACR,gBAAgB,ECLH,OAAO;CDUvB;;AAND,AAGI,WAHO,CAGP,EAAE,CAAC;EACC,KAAK,ECPF,IAAI;CDQV",
+    "sources": [
+        "Section.scss",
+        "globals.scss"
+    ],
+    "names": [],
+    "file": "Section.css"
+}

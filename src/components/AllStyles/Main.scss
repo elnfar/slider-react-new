@@ -10,21 +10,21 @@
 }
 
 .main{
-    background-color:$fav-color;
+    background-color:$primary-one;
     height: 100vh;
     position: relative;
     
     h1 {
     top: 6rem;
-    background-color: $fav-color;
-    color: $primary-one;
+    background-color: $primary-one;
+    color: $fav-color;
     position: absolute;
     font-family: sans-serif;
     right: 36rem;
     }
     h2{
-        background-color: $fav-color;
-        color:$primary-one;
+        background-color: $primary-one;
+        color:$fav-color;
         position: absolute;
         font-family: sans-serif;
         right: 40rem;

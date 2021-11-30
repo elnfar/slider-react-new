@@ -1,0 +1,28 @@
+.allSlide {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.allSlide img {
+  height: 500px;
+  width: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 17rem;
+}
+
+.allSlide .left {
+  position: absolute;
+  top: 50%;
+  color: black;
+  left: 15rem;
+}
+
+.allSlide .right {
+  position: absolute;
+  top: 50%;
+  color: black;
+  right: 15rem;
+}
+/*# sourceMappingURL=Data.css.map */

@@ -1,3 +1,7 @@
+.allNav {
+  background-color: #fff;
+}
+
 .navbar {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -16,24 +20,74 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 55px;
+  padding-top: 20px;
   padding-bottom: 25px;
   background-color: #fff;
 }
 
 .navbar li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   list-style: none;
   margin: 0 1rem;
   background-color: #fff;
+  font-size: small;
+  font-family: sans-serif;
 }
 
 .navbar a {
   text-decoration: none;
   background-color: #fff;
   color: #000;
+  font-weight: bold;
+}
+
+.allBody {
+  position: relative;
+  padding-top: 10px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.allBody .inputLogo {
+  background-color: white;
+  position: relative;
+}
+
+.allBody .inputLogo .inp {
+  height: 40px;
+  margin-top: 1.2rem;
+  background-color: transparent;
+  border: none;
+  outline: gray;
+  border: 1px #dfe6e9 solid;
+  color: #2d3436;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.allBody .inputLogo .icon-search {
+  width: 12px;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-left: 24rem;
+  width: 20%;
+  height: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: white;
 }
 
 * {
@@ -41,6 +95,6 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #615f5f;
+  background-color: #bdc3c7;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,27 @@
+$primary-color: #fff;
+$primary-weight: bolder;
+
+.whole {
+    h1 {
+        font-weight: $primary-weight;        
+        align-items: center;
+        margin-left: 22rem;
+        padding-top: 5rem;
+        font-size: 50px;
+    }
+    p{
+        margin-left: 30rem;
+        margin-top: 1rem;
+        color:$primary-color;
+        font-weight: $primary-weight;
+    }
+
+.shutter{
+ 
+    .logo2 {
+    width: 1100px;
+    margin-left: 11rem;
+    margin-top: 2rem;
+    }
+}
+}

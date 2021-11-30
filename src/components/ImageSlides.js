@@ -1,6 +1,10 @@
 import React, {useState} from 'react'
 import {FaArrowAltCircleLeft,FaArrowAltCircleRight} from 'react-icons/fa'
 import { DataImages } from './DataImages'
+import './AllStyles/Data.scss'
+
+
+
 const ImageSlides = ({slides}) => {
 
 
@@ -16,15 +20,15 @@ const ImageSlides = ({slides}) => {
 
 
     return (
-        <div>
+        <div className='allSlide'>
             
-        <FaArrowAltCircleLeft onClick={prevSlide}/>
-        <FaArrowAltCircleRight onClick={nextSlide}/>
+        <FaArrowAltCircleLeft onClick={prevSlide} className='left'/>
+        <FaArrowAltCircleRight onClick={nextSlide} className='right'/>
 
 
         {DataImages.map((slide,index) => {
             return (
-                <div className={index === current ? 'slide active' : 'slide'}>
+                <div>
                     {index === current && (
                         <img src={slide.image}/>
                     )}

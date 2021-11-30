@@ -1,0 +1,41 @@
+@mixin buttons {
+    position: absolute;
+    top: 50%;
+    color: black;
+}
+
+
+
+
+.allSlide{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    img {
+        height: 500px;
+        width: 900px;
+        object-fit: cover;
+        margin-left: 17rem;
+
+    }
+
+    .left {
+        @include buttons;
+        left: 15rem;
+    }
+
+
+    .right {
+        @include buttons;
+        right: 15rem;
+    }
+
+
+
+}
+
+
+
+
+
+
